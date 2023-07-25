@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 20px 0px;
+        }
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 28px;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+            margin:0 auto;
+        }
+        p{
+            text-align: justify;
+        }
+
+        .button-container{
+            text-align: right;
+
+        }
+        .btn{
+            width: 20px;
+            height: 20px;
+            display:inline-block;
+            border: 2px solid red;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        #white{
+            background-color: #fff;
+        }
+        #aqua{
+            background-color: aquamarine;
+        }
+        #violet{
+            background-color: #ce9aff;
+        }
+        #black{
+            background-color: #000;
+        }
+        button{
+            position:sticky;
+            top:90%;
+            left:90%;
+        }
+        button img{
+            mix-blend-mode:overlay;
+        }
+    </style>
+</head>
+<body>
+    <img src="../BackgroundChanger/wallpaperflare.com_wallpaper (9).jpg" id="logo" alt="">
+    <button id="btn"><img src="./icons8-arrow-48.png" alt=""></button>
+    <header>
+        <h2>Portfolio.</h2>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+<main>
+    <div class="button-container">
+        <span class="btn" onclick="changeBg('#ffffff')" id="white"></span>
+        <span class="btn" onclick="changeBg('#7fffd4')" id="aqua"></span>
+        <span class="btn" onclick="changeBg('#ce9aff')" id="violet"></span>
+        <span class="btn" onclick="changeBg('#000000')" id="black"></span>
+    </div>
+    
+    <h2 class="text">About us</h2>
+    <img src="../BackgroundChanger/wallpaperflare.com_wallpaper (9).jpg" alt="">
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sint blanditiis quaerat ratione tempore cum inventore nam. Laboriosam vitae repellendus eum sapiente. Animi nobis obcaecati sequi ipsum expedita illo nihil porro. Nesciunt alias porro, labore doloremque, soluta, ratione veniam repellat deleniti quos obcaecati vero placeat asperiores maxime. Fuga neque ratione dolorem magni aliquam. Eaque possimus deserunt cum tempore distinctio exercitationem, aut saepe perferendis error ipsam impedit reiciendis omnis ea quam repudiandae laudantium adipisci suscipit quos modi cupiditate velit sapiente. Maxime accusamus exercitationem, tenetur quae dolorem nam non, ex explicabo magni optio soluta ab cumque magnam nihil laboriosam voluptatibus deserunt consectetur atque distinctio veritatis. Amet, pariatur nostrum provident eveniet earum dolor qui atque velit voluptatibus? Laborum deleniti nesciunt esse doloremque tempora et placeat inventore id ducimus temporibus voluptatem, sit excepturi velit quisquam ea molestias atque porro eius a enim sapiente eum accusantium. Blanditiis repellendus, minima totam ex in mollitia labore assumenda iste laudantium tenetur ducimus dolorem dicta officia deserunt exercitationem ipsum molestias! Velit temporibus ab voluptates perferendis deleniti nemo itaque aliquid est modi aperiam repellat quae ad aspernatur eveniet fugit expedita at dolores quos voluptas ipsum, deserunt excepturi tempora beatae! Voluptatibus, consequuntur! Aut iste labore ad quas distinctio libero totam pariatur perferendis iusto numquam, necessitatibus deleniti asperiores sequi velit, voluptatibus veritatis cumque nam adipisci soluta tenetur laborum. Voluptatibus ad in, eligendi quia vero natus inventore. Dignissimos facere voluptate voluptatem aliquid debitis, dicta cupiditate, commodi deleniti earum, fugit iure aut ipsam quos. Omnis voluptatibus nulla magnam a saepe! Quae ipsam, cumque accusantium ducimus modi aliquid, excepturi iure, autem ipsa fuga unde omnis sunt rerum nihil doloremque inventore recusandae aut. Velit eaque sapiente perferendis? In veniam atque laborum unde mollitia aut rem totam ipsa veritatis sunt, fugiat deleniti beatae iste officia maxime dolores ipsum consequatur alias. Labore fugiat deleniti eveniet, natus voluptatem sit quam, beatae deserunt soluta, illo vitae impedit enim. Fugiat atque magnam quibusdam. Molestias et placeat sequi tempora vero possimus ex qui accusantium doloribus corporis autem, eligendi cupiditate nisi. Et velit a aliquid. At id eius suscipit deleniti quidem. Quos accusantium perspiciatis a minus, natus quidem quasi nulla deserunt odio dolorem praesentium nobis voluptates officiis cum placeat numquam officia aut exercitationem sint debitis velit sit! Accusantium consequatur at amet qui ea, pariatur beatae expedita explicabo temporibus minima, alias, quas harum quos possimus totam libero voluptatibus! Ipsum a laboriosam, aperiam, optio, recusandae nemo adipisci ea dolore alias veritatis earum odit repellendus. Nisi dicta omnis ad sequi earum voluptatibus debitis voluptates itaque nulla, corporis non in laboriosam, et nihil ipsam veniam nam. Itaque quae et nobis temporibus! Alias vel unde odio ut totam veniam? Aliquam excepturi illo, consequuntur facilis qui hic. Omnis veniam eius distinctio tenetur eaque quidem voluptatibus repellendus quod reprehenderit libero, culpa provident, deleniti labore sequi sunt dicta ipsa est alias consequuntur natus voluptas incidunt. Debitis sequi, autem porro, velit dolore possimus iusto sint non veritatis mollitia quod voluptas hic eaque fuga suscipit aperiam eligendi magnam eius deserunt. Eaque accusantium architecto dolorem sapiente, atque quas consectetur illo, dolorum vel recusandae sunt.
+    </p>
+</main>      
+<script>
+
+        let scrollBtn= document.getElementById('btn')
+        let navbar = document.getElementsByTagName("header");
+    window.addEventListener('scroll',function(){
+        if(window.pageYOffset>=10){
+            console.log("20");
+        }
+    })
+
+    scrollBtn.addEventListener('click',()=>{
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        })
+    })
+</script>
+
+    <!-- <script>
+        let txt = document.getElementsByClassName("text");
+        function changeBg(color){
+            document.body.style.backgroundColor=color;
+            if(color=="#000000"){
+                for(let elm of txt){
+                    elm.style.color="white";
+                }
+            }else{
+                for(let elm of txt){
+                    elm.style.color="#000000";
+                }
+            }
+        }
+    
+    </script> -->
+</body>
+</html>

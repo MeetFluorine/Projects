@@ -1,0 +1,42 @@
+header{
+    display:flex;
+    justify-content:space-around;
+    background:rgb(18,18,62);
+    height:50px;
+    margin-bottom: 10px;
+    
+  }
+  .sticky{
+    position: sticky;
+    width: 100%;
+    top: 0;
+  }
+  
+  .navbar ul{
+    display:flex;
+  }
+  
+  .navbar ul li{
+   list-style:none;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a:hover{
+    background:linear-gradient(rgb(200,200,200),rgb(100,100,100),rgb(150,150,150));
+  }
+  
+  .navbar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:1.3em;
+  }
+  h2{
+    font-size:1.8em;
+    margin:6px 0;
+    color: white;
+  }
+
+  #logo{
+    width: 200px;
+    margin:0 42%;
+  }

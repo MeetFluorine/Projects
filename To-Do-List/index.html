@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            height: 50vh;
+            background-image: linear-gradient(to bottom, #7950f2 5%, #f783ac 95%);
+            margin: 100px auto;
+            gap: 10px;
+            justify-content: space-between;
+        }
+
+        .write-section {
+            width: 45vw;
+            height: 15vh;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            background-color: #fff;
+            margin:80px 20px;
+            border-radius: 10px;
+        }
+
+        .write-section input {
+            width: 230px;
+            height: 30px;
+            border-radius: 5px;
+            border:2px solid #8534e8;
+            padding:5px;
+            font-size: 16px;
+        }
+
+        .write-section button {
+            width: 80px;
+            height: 32px;
+            border-radius: 5px;
+            background-color: #8534e8;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        .output {
+            width: 40vw;
+            height: 30vh;
+            background-color: green;
+            margin:80px 20px;
+            background-color: #fff;
+            border-radius:  10px;
+            overflow-y:auto;
+        }
+        h2{
+            position: absolute;
+            top:100px;
+            left:35%;
+            font-size:30px;
+            letter-spacing: 10px;
+            color: wheat;
+        }
+        li{
+            font-size: 1.5em;
+            font-weight: 800;
+            background-image: linear-gradient(to bottom, #7950f2 5%, #f783ac 95%);
+            color:white;
+            list-style: none;
+            padding:5px 10px;
+            width: 25vw   ;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+
+        }
+        .output ul li button{
+            position: relative;
+            left:90%;
+            width:70px;
+            height:30px;
+
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/7054866075.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>TO-DO-LIST</h2>
+        <div class="write-section">
+            <input type="text" id="write" />
+            <button id="add" onclick="append()">Add</button>
+        </div>
+        <div class="output">
+            <ul id="list">
+                <li><button>del</button></li>
+               
+            </ul>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

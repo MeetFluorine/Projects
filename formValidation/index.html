@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .container{
+            width:200px;
+            height: 200px;
+            border: 2px solid black;
+            margin:30% auto;
+            padding: 20px;
+        }
+        form{
+            display:flex;
+            flex-direction:column;
+            gap:20px;
+        }
+        input[type="submit"]{
+            color:white;
+            background:blue;
+        }
+        .error{
+            color:red;
+            text-align: left;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form onsubmit=" return formValidate()">
+            <input type="email" id="username" placeholder="username...">
+            <p id="userError" class="error"></p>
+            <input type="password" placeholder="password" id="password">
+            <p id="passError" class="error"></p>
+            <input type="submit" value="submit">
+
+        </form>
+    </div>
+    <script>
+
+        let userName = document.getElementById("username");
+        let password = document.getElementById("password");
+        let flag=1;
+        let Flag=1;
+
+        function formValidate(){
+            if(userName.value==""){
+                document.getElementById('userError').innerHTML="empty username"
+                Flag=0;
+            }else if(userName.value.length<7){
+                document.getElementById('userError').innerHTML="require more than 7 character"
+                Flag=0;
+            }else{
+                document.getElementById('userError').innerHTML=""
+                Flag=1;
+            }
+            if(password.value==""){
+                document.getElementById('passError').innerHTML="empty password"
+                flag=0;
+            }else if(password.value.length<5){
+                document.getElementById('passError').innerHTML="Try Strong Password"           
+                flag=0;
+            
+            }else{
+                document.getElementById('passError').innerHTML=""
+                flag=1;
+                
+            }
+            if(flag && Flag){
+                return true;
+            }else{
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

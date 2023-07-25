@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style_hidden.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input type="text" name="display" id="d" value="0" readonly="17" size="10"  disabled>
+        </div>
+        <div class="keypad">
+            <button class="gray"  value="AC" onclick="clearResult()">AC</button>
+            <button class="gray"  value="C" onclick="clearOne()">C</button>
+            <button class="gray"  value="%" onclick="appendValue('%')">%</button>
+            <button class="red-color" value="/" onclick="appendValue('/')">&divide;</button>
+
+            <button class="black" value="7" onclick="appendValue(7)">7</button>
+            <button class="black" value="8" onclick="appendValue(8)">8</button>
+            <button class="black" value="9" onclick="appendValue(9)">9</button>
+            <button class="red-color" value="*" onclick="appendValue('*')">&times;</button>
+            
+            <button class="black" value="4" onclick="appendValue(4)">4</button>
+            <button class="black" value="5" onclick="appendValue(5)">5</button>
+            <button class="black" value="6" onclick="appendValue(6)">6</button>
+            <button class="red-color" value="-" onclick="appendValue('-')">&minus;</button>
+            
+            <button class="black" value="1" onclick="appendValue(1)">1</button>
+            <button class="black" value="2" onclick="appendValue(2)">2</button>
+            <button class="black" value="3" onclick="appendValue(3)">3</button>
+            <button class="red-color" value="+" onclick="appendValue('+')">&plus;</button>
+            
+            <button class="black" value="0" onclick="appendValue(0)">0</button>
+            <button class="black" value="00" onclick="appendValue('00')">00</button>
+            <button class="black" value="." onclick="appendValue('.')">.</button>
+            <button class="yellow-color" value="=" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./script_hidden.js"></script>
+    <!-- <script src="./sec.js"></script> -->
+</body>
+</html>
