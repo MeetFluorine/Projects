@@ -7,7 +7,7 @@
    2. CSS
    3. JAVASCRIPT
 
-## Author :
+# Author :
    chandan yadav
    <br>
    Email: chandangee77@gmail.com
