@@ -7,7 +7,7 @@
    2. CSS
    3. JAVASCRIPT
 
-## Author :
+# Author :
    chandan yadav
    <br>
    Email: chandangee77@gmail.com
@@ -20,7 +20,7 @@
 ## Ex- Image
 ### Home Page
 ![Screenshot 2023-12-19 222803](https://github.com/MeetFluorine/Projects/blob/main/portfolioO/images/visual/screenshot1.png)
-![Screenshot 2023-12-19 220750](https://github.com/MeetFluorine/Projects/blob/main/portfolioO/images/visual/screenshot2.png)
+![Screenshot 2023-12-19 220750](https://github.com/MeetFluorine/Portfolio/blob/main/assets/images/calc.png)
 ![Screenshot 2023-12-19 220838](https://github.com/MeetFluorine/Portfolio/blob/main/assets/images/portfolio.png)
 ![Screenshot 2023-12-19 220936](https://github.com/MeetFluorine/Portfolio/blob/main/assets/images/wordcounter.png)
 ![Screenshot 2023-12-19 221028](https://github.com/MeetFluorine/Portfolio/blob/main/assets/images/temp.png)
