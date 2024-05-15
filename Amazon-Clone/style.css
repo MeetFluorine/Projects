@@ -470,7 +470,8 @@ img.last:hover {
 
 .main .main-imgs .main-img {
     display: flex;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .blur_img {
